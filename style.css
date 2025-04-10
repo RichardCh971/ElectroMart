@@ -98,11 +98,54 @@ button {
 .homeContainer1 {
     height: 300px;
     width: 100%;
-    background-color: gray;
+    background-color: #e6e6e6;
     padding-left: 1vw;
     padding-right: 1vw;
     padding-bottom: 1vw;
     padding-top: 1vw;
+}
+
+.dotd {
+    text-align: center;
+    font-size: 250%;
+    font-weight: bolder;
+    font-style: oblique;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #4ddde0;
+    color: black;
+    border-radius: 30px;
+}
+
+.column {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    padding-left: 20px;
+    border-radius: 5%;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: white;
+    border-radius: 10px;
+    width: 98vw;
+}
+
+#img1 {
+    height: 400px;
+    width: 30vw;
+}
+
+.pricing {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    padding-left: 100px;
+    border-radius: 5%;
+    color: #4ddde0;
 }
 
 /*Everything above here is for the homepage*/
@@ -205,6 +248,39 @@ button {
         transform: translateY(0px);
     }
 
+
+
+    /*Everything below here is for the homepage*/
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        border-radius: 5%;
+    }
+
+    .row {
+        content: "";
+        display: table;
+        clear: both;
+        background-color: white;
+        border-radius: 10px;
+        width: 98vw;
+    }
+
+    #img1 {
+        height: 100px;
+    }
+
+    .pricing {
+        float: left;
+        width: 30%;
+        padding: 20px;
+        padding-left: 20px;
+        border-radius: 5%;
+        color: #4ddde0;
+    }
+
+    /*Everything above here is for the homepage*/
 }
 
 /*Everything above this is part of the mobile menu*/
