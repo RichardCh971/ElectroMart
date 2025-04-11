@@ -10,7 +10,7 @@ button {
 }
 
 .homepage {
-    background-color: #e6e6e6;
+    background-color: darkgray;
 }
 
 /*Everything below this is the Navbar*/
@@ -98,7 +98,7 @@ button {
 .homeContainer1 {
     height: 300px;
     width: 100%;
-    background-color: #e6e6e6;
+    background-color: darkgray;
     padding-left: 1vw;
     padding-right: 1vw;
     padding-bottom: 1vw;
@@ -151,7 +151,18 @@ button {
 /*Everything above here is for the homepage*/
 
 
+/*Everything below here is for the Profile page*/
 
+.profileIcon {
+    padding-left: 40%;
+}
+
+.icon1 {
+    height: 300px;
+    width: 300px;
+}
+
+/*Everything above here is for the Profile page*/
 
 
 
@@ -281,6 +292,19 @@ button {
     }
 
     /*Everything above here is for the homepage*/
+
+    /*Everything below here is for the Profile page*/
+
+    .profileIcon {
+        padding-left: 30%;
+    }
+
+    .icon1 {
+        height: 200px;
+        width: 200px;
+    }
+
+    /*Everything above here is for the Profile page*/
 }
 
 /*Everything above this is part of the mobile menu*/
