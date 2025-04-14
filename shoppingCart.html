@@ -2,15 +2,14 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shopping Cart - ElectroMart</title>
-  <link rel="stylesheet" href="style.css" />
-  
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="Pictures/ElectroMart.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroMart</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
+<body class="homepage">
     <nav class="navbar" id="web-menu">
         <div class="navbar_container">
             <a href="index.html" id="navbar_logo"><img src="Pictures/ElectroMart.png" class="logo" alt=""></a>
@@ -35,38 +34,7 @@
             </ul>
         </div>
     </nav>
-  <div class="cart-container">
-    <h1>Your Shopping Cart</h1>
-
-    <div class="cart-item">
-      <img src="Pictures/Samsung 970 evo.jpg" alt="Samsung SSD" />
-      <div class="cart-details">
-        <h3>Samsung 970 EVO</h3>
-        <p>$189.99</p>
-      </div>
-      <div class="cart-actions">
-        <input type="number" value="1" min="1" />
-        <button>Remove</button>
-      </div>
-    </div>
-
-    <div class="cart-item">
-      <img src="Pictures/MSI RTX 5090.jpg" alt="MSI GPU" />
-      <div class="cart-details">
-        <h3>MSI RTX 5090</h3>
-        <p>$2499.99</p>
-      </div>
-      <div class="cart-actions">
-        <input type="number" value="1" min="1" />
-        <button>Remove</button>
-      </div>
-    </div>
-
-    <div class="total">
-      Total: $2,689.98
-    </div>
-    <button class="checkout-btn">Proceed to Checkout</button>
-  </div>
+    <Script src="app.js"></Script>
 </body>
 
 </html>
