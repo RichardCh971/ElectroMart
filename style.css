@@ -93,6 +93,59 @@ button {
 
 /*everything above this is the Navbar*/
 
+/*everything below is shopping cart*/
+.cart-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .cart-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+  }
+  .cart-item img {
+    width: 100px;
+  }
+  .cart-details {
+    flex-grow: 1;
+    padding: 0 20px;
+  }
+  .cart-actions input {
+    width: 50px;
+    text-align: center;
+  }
+  .total {
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .checkout-btn {
+    background-color: #61dafb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  .checkout-btn:hover {
+    background-color: #21a1f1;
+  }
+
+/* everything above is shopping cart*/
+
 /*Everything below here is for the homepage*/
 
 .homeContainer1 {
